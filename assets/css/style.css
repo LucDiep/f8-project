@@ -90,7 +90,7 @@ a {
 .hidden-text {
     display: -webkit-box;
     line-clamp: var(--line-clamp);
-    -webkit-line-clamp: var(--line-clamp); /* muốn hiển thị mấy dòng */
+    -webkit-line-clamp: var(--line-clamp);
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -406,10 +406,6 @@ a {
     box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
 }
 
-
-.img-info {
-    
-}
 
 .img-info strong {
     color: #000339;
